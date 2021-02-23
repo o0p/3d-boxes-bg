@@ -49,6 +49,11 @@ body {
     width: 500px;
 }
 
+.boxes.big {
+    width: 600px;
+    height: 600px;
+}
+
 .box {
     background: yellow;
     height: 125px;
