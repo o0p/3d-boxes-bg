@@ -29,5 +29,9 @@ body {
     position: fixed;
     top: 20px;
     letter-spacing: 1px;
-    box-shadow: 0 2px rgba(249, 202, 36, 0.3);
+    box-shadow: 0 3px rgba(249, 203, 36, 0.397);
+}
+
+.magic:focus {
+    outline: none;
 }
