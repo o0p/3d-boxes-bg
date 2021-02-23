@@ -29,5 +29,33 @@ body {
     position: fixed;
     top: 20px;
     letter-spacing: 1px;
-    box-shadow: 0 2px rgba(249, 202, 36, 0.3);
+    box-shadow: 0 3px rgba(249, 203, 36, 0.397);
+    z-index: 100;
+}
+
+.magic:focus {
+    outline: none;
+}
+
+.magic:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+}
+
+.boxes.big {
+    width: 600px;
+    height: 600px;
+}
+
+.box {
+    background: yellow;
+    height: 125px;
+    width: 125px;
 }
