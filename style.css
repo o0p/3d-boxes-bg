@@ -17,3 +17,17 @@ body {
     margin: 0;
 }
 
+.magic {
+    background-color: #f9ca24;
+    color: rgb(59, 45, 45);
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 12px 20px;
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    letter-spacing: 1px;
+    box-shadow: 0 2px rgba(249, 202, 36, 0.3);
+}
