@@ -45,8 +45,10 @@ body {
 .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     height: 500px;
     width: 500px;
+    position: relative;
 }
 
 .boxes.big {
@@ -55,7 +57,10 @@ body {
 }
 
 .box {
-    background: yellow;
+    background-image: url(https://media4.giphy.com/media/ZC0ATzzJnKqn2SNDHR/giphy.gif?cid=ecf05e47o2wksqube99r2215mhy0benw6s2amojun6e36f9g&rid=giphy.gif);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    position: relative;
     height: 125px;
     width: 125px;
 }
