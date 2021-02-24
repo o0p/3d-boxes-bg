@@ -18,8 +18,8 @@ body {
 }
 
 .magic {
-    background-color: #f9ca24;
-    color: rgb(59, 45, 45);
+    background-color: #702000;
+    color: rgb(255, 208, 0);
     font-family: 'Poppins', sans-serif;
     border: 0;
     border-radius: 3px;
@@ -73,11 +73,22 @@ body {
 
 .box::after {
     content: '';
-    background-color: #f6e59d;
+    background-color: #754938;
     position: absolute;
     top: 8px;
     right: -15px;
     height: 100%;
     width: 15px;
     transform: skewY(45deg);
+}
+
+.box::before {
+    content: '';
+    background-color: #702000;
+    position: absolute;
+    bottom: -15px;
+    left: 8px;
+    height: 15px;
+    width: 100%;
+    transform: skewX(45deg);
 }
