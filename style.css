@@ -49,6 +49,7 @@ body {
     height: 500px;
     width: 500px;
     position: relative;
+    transition: 400ms ease;
 }
 
 .boxes.big {
@@ -67,4 +68,5 @@ body {
     position: relativevvf;
     height: 125px;
     width: 125px;
+    transition: 400ms ease;
 }
