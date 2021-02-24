@@ -69,6 +69,7 @@ body {
     height: 7.8125rem;
     width: 7.8125rem;
     transition: 400ms ease;
+    margin: 10px;
 }
 
 .box::after {
